@@ -1,0 +1,26 @@
+{
+  "name": "webcamfacerecognition",
+  "version": "1.0.0",
+  "description": "- npm i - Add your face images in ./data/faceRecognition following the format name1.jpg,name2.jpg,name3.jpg etc - Add the name in nameMapping in src/webcameFaceRecognition.js file - node src/webcameFaceRecognition.js",
+  "main": "src/webcamFaceRecognition",
+  "dependencies": {
+    "opencv4nodejs": "^4.13.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VasilisGerodimos/webcamFaceRecognition.git"
+  },
+  "keywords": [
+    "faceRecognition"
+  ],
+  "author": "VasilisGerodimos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VasilisGerodimos/webcamFaceRecognition/issues"
+  },
+  "homepage": "https://github.com/VasilisGerodimos/webcamFaceRecognition#readme"
+}
